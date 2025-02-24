@@ -1,5 +1,6 @@
 "use client";
 
+import { AnimatedShinyTextDemo } from "@/components/demos/animated-shiny-text-demo";
 import Image from "next/image";
 import Link from "next/link";
 import { Link as ScrollLink, Element } from "react-scroll";
@@ -76,6 +77,12 @@ export default function Home() {
           </Link>
         </div>
       </Element>
+
+      <main className="md:pb-10">
+        <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto mt-14">
+        <AnimatedShinyTextDemo />
+        </div>
+      </main>
     </div>
   );
 }
