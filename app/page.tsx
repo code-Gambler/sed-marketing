@@ -51,6 +51,30 @@ export default function Home() {
             </ScrollLink>
           </div>
         </div>
+        <div className="flex items-center gap-x-4">
+          <a href="tel:6475584996" className="hidden lg:flex">
+            <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
+              (647)-558-4996
+            </button>
+          </a>
+
+          <Link
+            href={"/meeting"}
+            className="px-6 py-3
+          text-lg
+          hover:bg-[#abcbff]
+          rounded-[6px]
+          border-2
+          border-black
+          text-white
+          bg-[#121212]
+          transition
+          duration-200
+          hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
+          >
+            Book a call
+          </Link>
+        </div>
       </Element>
     </div>
   );
