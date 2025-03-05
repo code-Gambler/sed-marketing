@@ -23,10 +23,10 @@ const Showcase = () => {
           />
         </div>
         <p className="md:text-center text-xl md:text-2xl my-6   md:w-4/5 mx-auto text-gray-500">
-          Have a look at some of our recent projects.
+        We&#39;re working on some exciting projects! Stay tuned for updates on our latest work that helps businesses grow with cutting-edge design and development.
         </p>
 
-        <BlurFadeDemo />
+        {/* <BlurFadeDemo /> */}
 
         <LetsMakeThingsHappenSection />
 
